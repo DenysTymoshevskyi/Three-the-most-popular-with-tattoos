@@ -1,0 +1,35 @@
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to left bottom, yellow, skyblue, rgb(255, 152, 169), rgb(87, 238, 87));
+    font-size: 20px;
+}
+
+.main-title {
+    text-align: center;
+    color: rgb(46, 175, 255);
+    text-shadow: 10px 3px 8px rgb(150, 215, 255);
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.item-title {
+    color: rgb(0, 119, 255);
+    text-shadow: 10px 3px 8px rgb(78, 161, 255);
+    font-size: 48px;
+}
+
+.img {
+    width: 750px;
+    margin-left: 20px;
+    box-shadow: -10px 3px 20px 15px cornflowerblue;
+    border-radius: 4px;
+}
+
+.facts-list {
+    padding-left: 0;
+    font-size: 24px;
+    list-style-type: none;
+    font-size: 20px;
+}
