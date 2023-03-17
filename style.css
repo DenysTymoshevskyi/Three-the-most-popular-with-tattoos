@@ -2,8 +2,17 @@ body {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(to left bottom, yellow, skyblue, rgb(255, 152, 169), rgb(87, 238, 87));
+    background-image: linear-gradient(to left    bottom, yellow, skyblue, rgb(87, 238, 87));
     font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #03A9F4
 }
 
 .main-title {
@@ -25,6 +34,12 @@ body {
     margin-left: 20px;
     box-shadow: -10px 3px 20px 15px cornflowerblue;
     border-radius: 4px;
+    transition: transform 1s;
+}
+
+.img:hover{
+    box-shadow: 0px 0px 10px 3px cornflowerblue;
+    transform: scale(1.05) ;
 }
 
 .facts-list {
@@ -32,4 +47,11 @@ body {
     font-size: 24px;
     list-style-type: none;
     font-size: 20px;
+}
+.pages-list{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
 }
